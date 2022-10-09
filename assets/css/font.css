@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'gistesy';
+  src: url('../fonts/gistesy-webfont.woff2') format('woff2'),
+    url('../fonts/gistesy-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'blackmango';
+  src: url('../fonts/blackmango-regular-webfont.woff2') format('woff2'),
+    url('../fonts/blackmango-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'forum';
+  src: url('../fonts/forum-regular-webfont.woff2') format('woff2'),
+    url('../fonts/forum-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
