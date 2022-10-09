@@ -15,8 +15,8 @@
     >
       VEUILLEZ CONFIRMER ICI
     </button>
-    <img src="~/assets/images/flowers.png" class="absolute top-0 left-0 max-w-lg max-h-lg z-bg">
-    <img src="~/assets/images/flowers.png" class="absolute bottom-0 right-0 max-w-lg max-h-lg rotate-180 transform z-bg">
+    <img src="~/assets/images/flowers.png" class="absolute top-0 left-0 max-w-lg max-h-lg z-deco">
+    <img src="~/assets/images/flowers.png" class="absolute bottom-0 right-0 max-w-lg max-h-lg rotate-180 transform z-deco">
   </section>
 </template>
 

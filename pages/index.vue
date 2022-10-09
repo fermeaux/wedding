@@ -8,5 +8,7 @@
     <Informations />
     <SectionTransition />
     <Questions />
+    <SectionTransition direction="t" />
+    <Contact />
   </main>
 </template>
