@@ -1,5 +1,5 @@
 <template>
-  <div :class="`h-${size} bg-gradient-to-${direction} from-white to-floral-white z-bg my-m${size / 2}`" />
+  <div :class="`${direction === 'b' ? 'bg-gradient-to-b' : 'bg-gradient-to-t'} h-16 from-white to-floral-white z-bg my-m8`" />
 </template>
 
 <script>
@@ -8,10 +8,6 @@ export default {
     direction: {
       type: String,
       default: 'b'
-    },
-    size: {
-      type: Number,
-      default: 16
     }
   }
 }

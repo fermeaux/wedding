@@ -2,11 +2,11 @@
   <main>
     <Welcome />
     <Important />
-    <SectionTransition direction="b" :size="16" />
+    <SectionTransition />
     <Story />
-    <SectionTransition direction="t" :size="16" />
+    <SectionTransition direction="t" />
     <Informations />
-    <SectionTransition direction="b" :size="16" />
+    <SectionTransition />
     <Questions />
   </main>
 </template>

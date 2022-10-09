@@ -1,6 +1,6 @@
 <template>
-  <div :class="`w-${size} h-${size} flex justify-center items-center`">
-    <img :src="imageUrl" :class="`max-w-${size} max-h-${size}`">
+  <div :class="`${size === '16' ? 'w-16 h-16' : 'w-12 h-12'} flex justify-center items-center`">
+    <img :src="imageUrl" :class="`${size === '16' ? 'max-w-16 max-h-16' : 'max-w-12 max-h-12'}`">
   </div>
 </template>
 

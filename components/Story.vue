@@ -10,7 +10,6 @@
         <StepDivider v-if="index > 0" />
         <StepItem
           :image="step.image"
-          :image-size="step.imageSize || '16'"
           :label="step.label"
           :date="step.date"
           :text-size="step.textSize || 'lg'"
