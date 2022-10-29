@@ -37,8 +37,8 @@ export default {
           answer: "La cérémonie aura lieu le 16 septembre, alors veuillez planifier votre voyage en conséquence. Vous pouvez choisir d'arriver avant le jour même pour profiter du spa de l'hôtel ou visiter Strasbourg !"
         },
         {
-          question: 'Y aura-t-il un faire-part papier ? ',
-          answer: 'Vous pouvez demander à en recevoir un. Cela dit le site sera mis à jour en temps réel et vous y trouverez toutes les informations nécessaires.'
+          question: 'Et en tram,  ça donne quoi ?',
+          answer: "L'arrêt le plus proche est \"Campus d'Illkirch\" (12 minutes à pied jusqu'à l'hôtel)."
         }
       ]
     }

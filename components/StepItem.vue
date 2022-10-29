@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col items-center w-32 mx-m10">
-    <Icon :image="image" />
+    <Icon :image="image" :size="iconSize" />
     <p :class="`${textSize === 'lg' ? 'text-lg' : 'text-2xl'} font-forum text-tumbleweed text-center pt-2`">
       {{ date }}
     </p>
@@ -28,6 +28,10 @@ export default {
     textSize: {
       type: String,
       default: 'lg'
+    },
+    iconSize: {
+      type: String,
+      default: '16'
     }
   }
 }

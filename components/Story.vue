@@ -13,6 +13,7 @@
           :label="step.label"
           :date="step.date"
           :text-size="step.textSize || 'lg'"
+          :icon-size="step.iconSize || '16'"
         />
       </template>
     </div>
@@ -49,7 +50,8 @@ export default {
           image: 'double-ring.png',
           label: 'Le mariage',
           date: '16/09/2023',
-          textSize: '2xl'
+          textSize: '2xl',
+          iconSize: '24'
         }
       ]
     }

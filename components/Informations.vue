@@ -1,7 +1,7 @@
 <template>
   <section class="min-h-screen relative">
     <h1 class="font-gistesy text-7xl text-tumbleweed pt-32 text-center z-20">
-      Notre Mariage
+      Programme
     </h1>
     <img src="~/assets/images/flowers.png" class="absolute top-0 left-0 w-96 h-96 z-none">
     <img src="~/assets/images/flowers.png" class="absolute bottom-0 right-0 w-96 h-96 rotate-180 transform z-10">

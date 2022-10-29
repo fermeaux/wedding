@@ -1,3 +1,3 @@
 <template>
-  <img src="~/assets/images/step.svg" class="w-32 h-16 px-4">
+  <img src="~/assets/images/step.svg" class="w-32 h-16 px-6">
 </template>
