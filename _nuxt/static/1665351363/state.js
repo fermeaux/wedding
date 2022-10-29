@@ -1,1 +1,0 @@
-window.__NUXT__=(function(a){return {staticAssetsBase:"\u002Fwedding\u002F_nuxt\u002Fstatic\u002F1665351363",layout:"default",error:a,serverRendered:true,routePath:"\u002F",config:{_app:{basePath:"\u002Fwedding\u002F",assetsPath:"\u002Fwedding\u002F_nuxt\u002F",cdnURL:a},content:{dbHash:"2b1c0ed8"}}}}(null));
