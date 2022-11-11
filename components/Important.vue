@@ -1,10 +1,10 @@
 <template>
-  <section class="relative min-h-screen">
-    <h1 class="absolute left-1/2 top-1/2 font-gistesy text-7xl text-tumbleweed transform translate-x-important-label-x translate-y-important-label-y">
+  <section class="md:relative min-h-screen flex flex-col items-center justify-center px-8">
+    <h1 class="text-center md:absolute md:left-1/2 md:top-1/2 font-gistesy text-7xl text-tumbleweed md:transform md:translate-x-important-label-x md:translate-y-important-label-y mb-8">
       Important
     </h1>
-    <div class="absolute left-1/2 top-1/2 w-160 h-160 bg-cadre bg-contain bg-no-repeat bg-center transform translate-x-cadre translate-y-m1/2" />
-    <div class="absolute left-1/2 top-1/2 w-104 font-forum text-tumbleweed text-center transform translate-x-m1/2 translate-y-m1/2">
+    <div class="hidden md:block absolute left-1/2 top-1/2 w-160 h-160 bg-cadre bg-contain bg-no-repeat bg-center transform translate-x-cadre translate-y-m1/2" />
+    <div class="md:absolute md:left-1/2 md:top-1/2 md:w-104 font-forum text-tumbleweed text-center md:transform md:translate-x-m1/2 md:translate-y-m1/2">
       <p class="mb-4">
         La réception aura lieu à l'hôtel 7Hotel&Spa.
       </p>

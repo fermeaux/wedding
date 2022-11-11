@@ -42,6 +42,7 @@ module.exports = {
         'm1/2': '-50%'
       },
       width: {
+        76: '19rem',
         104: '26rem',
         160: '40rem'
       },

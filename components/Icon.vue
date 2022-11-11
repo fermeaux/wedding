@@ -1,6 +1,6 @@
 <template>
   <div :class="`${sizeClass} flex justify-center items-center`">
-    <img :src="imageUrl" :class="`${size === '16' ? 'max-w-16 max-h-16' : 'max-w-12 max-h-12'}`">
+    <img :src="imageUrl" :class="`${sizeMaxClass}`">
   </div>
 </template>
 
@@ -14,6 +14,10 @@ export default {
     size: {
       type: String,
       default: '16'
+    },
+    isRing: {
+      type: Boolean,
+      default: false
     }
   },
   computed: {
@@ -25,6 +29,10 @@ export default {
         return 'w-16 h-16'
       } else if (this.size === '24') {
         return 'w-24 h-16'
+      } else if (this.isRing && this.size === '8') {
+        return 'w-12 h-8'
+      } else if (this.size === '8') {
+        return 'w-8 h-8'
       }
       return 'w-12 h-12'
     },
@@ -33,6 +41,10 @@ export default {
         return 'max-w-16 max-h-16'
       } else if (this.size === '24') {
         return 'max-w-24 max-h-16'
+      } else if (this.isRing && this.size === '8') {
+        return 'max-w-12 max-h-8'
+      } else if (this.size === '8') {
+        return 'max-w-8 max-h-8'
       }
       return 'max-w-12 max-h-12'
     }
