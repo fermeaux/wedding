@@ -34,8 +34,8 @@
         VEUILLEZ CONFIRMER
       </button>
     </div>
-    <img src="~/assets/images/flowers.png" class="absolute top-0 left-0 max-w-xs max-h-xs md:max-w-lg md:max-h-lg z-deco">
-    <img src="~/assets/images/flowers.png" class="absolute bottom-0 right-0 max-w-xs max-h-xs md:max-w-lg md:max-h-lg rotate-180 transform z-deco">
+    <img src="~/assets/images/flowers.png" class="absolute top-0 left-0 max-w-xxs max-h-xxs md:max-w-lg md:max-h-lg z-deco">
+    <img src="~/assets/images/flowers.png" class="absolute bottom-0 right-0 max-w-xxs max-h-xxs md:max-w-lg md:max-h-lg rotate-180 transform z-deco">
   </section>
 </template>
 
