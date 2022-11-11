@@ -20,7 +20,18 @@
           &
         </p>
       </div>
-      <div data-wow-duration="1.5s" class="w-72 wow bounceInRight">
+      <div data-wow-duration="1.5s" class="hidden md:block w-72 wow bounceInRight">
+        <h2 class="font-blackmango text-4xl md:text-6xl text-wenge">
+          Manon
+        </h2>
+        <p class="font-forum text-2xl text-wenge">
+          06 25 65 41 52
+        </p>
+        <p class="font-forum text-2xl text-wenge">
+          manon1meyer@gmail.com
+        </p>
+      </div>
+      <div data-wow-duration="1.5s" class=" md:hidden w-72 wow bounceInLeft">
         <h2 class="font-blackmango text-4xl md:text-6xl text-wenge">
           Manon
         </h2>
