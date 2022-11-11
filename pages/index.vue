@@ -27,7 +27,7 @@ export default {
       script: [
         {
           hid: 'wow',
-          src: '/js/wow.min.js',
+          src: '/wedding/js/wow.min.js',
           callback: () => {
             // eslint-disable-next-line no-undef
             const wow = new WOW()
