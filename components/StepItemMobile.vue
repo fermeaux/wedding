@@ -1,5 +1,5 @@
 <template>
-  <div :class="`flex flex-row items-center py-2 ${isRing ? 'ml-m4': ''} w-76`">
+  <div :data-wow-delay="delayAnimation" :class="`flex flex-row items-center py-2 ${isRing ? 'ml-m4': ''} w-76 wow bounceInLeft`">
     <Icon :image="image" size="8" :is-ring="isRing" />
     <p class="text-lg font-forum text-tumbleweed text-center pl-4">
       {{ date }}
@@ -27,6 +27,10 @@ export default {
     date: {
       type: String,
       default: '16/09/2023'
+    },
+    delayAnimation: {
+      type: String,
+      default: '0s'
     }
   },
   computed: {

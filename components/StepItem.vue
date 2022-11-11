@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col items-center w-32 mx-m10">
+  <div :data-wow-delay="delayAnimation" :class="`flex flex-col items-center w-32 wow bounceInUp ${iconSize === '24' ? 'mx-m8' : 'mx-m10'}`">
     <Icon :image="image" :size="iconSize" />
     <p :class="`${textSize === 'lg' ? 'text-lg' : 'text-2xl'} font-forum text-tumbleweed text-center pt-2`">
       {{ date }}
@@ -32,6 +32,10 @@ export default {
     iconSize: {
       type: String,
       default: '16'
+    },
+    delayAnimation: {
+      type: String,
+      default: '0s'
     }
   }
 }

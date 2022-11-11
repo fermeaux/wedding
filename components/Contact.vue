@@ -1,10 +1,10 @@
 <template>
   <section id="contact" class="min-h-screen flex flex-col justify-center items-center relative text-center z-0">
-    <h1 class="font-gistesy text-6xl md:text-8xl text-tumbleweed pb-16">
+    <h1 data-wow-duration="2s" class="font-gistesy text-6xl md:text-8xl text-tumbleweed pb-16 wow fadeInUp">
       Contact
     </h1>
     <div class="flex justify-center items-center flex-col md:flex-row">
-      <div class="w-72">
+      <div data-wow-duration="1.5s" class="w-72 wow bounceInLeft">
         <h2 class="font-blackmango text-4xl md:text-6xl text-wenge">
           Timothée
         </h2>
@@ -15,12 +15,12 @@
           fermeaux.t@gmail.com
         </p>
       </div>
-      <div class="px-8 pt-4">
+      <div data-wow-duration="2s" class="px-8 pt-4 wow fadeInUp">
         <p class="font-gistesy text-6xl md:text-8xl text-tumbleweed">
           &
         </p>
       </div>
-      <div class="w-72">
+      <div data-wow-duration="1.5s" class="w-72 wow bounceInRight">
         <h2 class="font-blackmango text-4xl md:text-6xl text-wenge">
           Manon
         </h2>

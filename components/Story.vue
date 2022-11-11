@@ -7,22 +7,24 @@
     </h1>
     <div class="hidden md:flex absolute top-1/2 left-1/2 w-full transform translate-x-m1/2 translate-y-m1/2 flex-row justify-center items-start">
       <template v-for="(step, index) in steps">
-        <StepDivider v-if="index > 0" />
+        <StepDivider v-if="index > 0" :delay-animation="`0.${index - 1}5s`" />
         <StepItem
           :image="step.image"
           :label="step.label"
           :date="step.date"
           :text-size="step.textSize || 'lg'"
           :icon-size="step.iconSize || '16'"
+          :delay-animation="`0.${index}s`"
         />
       </template>
     </div>
     <div class="flex md:hidden absolute top-1/2 left-1/2 transform translate-x-m1/2 translate-y-m1/2 flex-col justify-center items-start">
-      <template v-for="step in steps">
+      <template v-for="(step, index) in steps">
         <StepItemMobile
           :image="step.image"
           :label="step.label"
           :date="step.date"
+          :delay-animation="`0.${index}s`"
         />
       </template>
     </div>

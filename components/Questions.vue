@@ -17,7 +17,7 @@
       <h1 class="font-gistesy text-7xl text-tumbleweed text-center">
         Questions / Reponses
       </h1>
-      <img src="~/assets/images/pot.png" class="h-96 pt-8">
+      <img data-wow-delay="0.5s" src="~/assets/images/pot.png" class="h-96 pt-8  wow bounceInRight">
     </div>
     <BackgroundFloral />
   </section>
