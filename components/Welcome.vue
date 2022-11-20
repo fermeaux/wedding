@@ -11,7 +11,7 @@
       data-wow-duration="2s"
       class="font-blackmango text-6xl text-wenge text-center wow fadeInUp"
     >
-      Timothée & Manon
+      Manon & Timothée
     </h1>
     <p
       data-wow-delay="1s"
