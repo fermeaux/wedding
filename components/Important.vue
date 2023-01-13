@@ -19,7 +19,7 @@
         Si vous souhaitez réserver une chambre, <strong class="text-dark-pastel-red">il est important que vous le fassiez le plus rapidement possible.</strong>
       </p>
       <p class="mb-4">
-        Pour cela, vous pouvez contacter Mme Vanessa CABIDDU par mail <strong class="text-dark-pastel-red">v.cabiddu@7hotel.fr</strong> ou par téléphone <strong class="text-dark-pastel-red">03 88 40 84 43</strong>.
+        Pour cela, vous pouvez contacter Mme Vanessa CABIDDU par mail <strong class="text-dark-pastel-red">vcabiddu@7hotel.fr</strong> ou par téléphone <strong class="text-dark-pastel-red">03 88 40 84 43</strong>.
       </p>
       <p>
         Il faudra préciser que vous êtes invités à notre mariage car vous bénéficiez de 20% de réduction sur votre réservation avec un accès au SPA.
