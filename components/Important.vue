@@ -9,7 +9,10 @@
         La réception aura lieu à l'hôtel 7Hotel&Spa.
       </p>
       <p class="mb-4">
-        <span class="flex justify-center items-center">
+        <span
+          data-wow-duration="2s"
+          class="flex justify-center items-center wow flipInX"
+        >
           <Icon image="site.png" size="12" />
         </span>
         550 Bd Sébastien Brant<br>

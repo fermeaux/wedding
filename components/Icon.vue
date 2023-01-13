@@ -33,6 +33,8 @@ export default {
         return 'w-12 h-8'
       } else if (this.size === '8') {
         return 'w-8 h-8'
+      } else if (this.size === '32') {
+        return 'w-32 h-32'
       }
       return 'w-12 h-12'
     },
@@ -45,6 +47,8 @@ export default {
         return 'max-w-12 max-h-8'
       } else if (this.size === '8') {
         return 'max-w-8 max-h-8'
+      } else if (this.size === '32') {
+        return 'max-w-32 max-h-32'
       }
       return 'max-w-12 max-h-12'
     }

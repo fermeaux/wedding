@@ -25,6 +25,7 @@ module.exports = {
         deco: '-50'
       },
       margin: {
+        m2: '-0.5rem',
         m4: '-1rem',
         m8: '-2rem',
         m10: '-2.5rem',
